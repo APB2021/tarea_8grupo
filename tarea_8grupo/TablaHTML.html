@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Lista de Alumnos</title>
+        <style>
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    th, td {
+                        border: 1px solid #ccc;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                    th {
+                        background-color: #b2ebf2; /* Azul más intenso */
+                    }
+                    h2 {
+                        text-align: center;
+                        color: blue;
+                        text-transform: uppercase;
+                        text-decoration: underline;
+                    }
+                    tr:nth-child(even) {
+                        background-color: #e0f7fa; /* Azul claro para filas pares */
+                    }
+                    tr:nth-child(odd) {
+                        background-color: #ffffff; /* Blanco para filas impares */
+                    }
+                    tr:hover {
+                        background-color: #b2ebf2; /* Azul más intenso al pasar el cursor */
+                    }
+                    .centered {
+                        text-align: center;
+                    }
+                </style>
+    </head>
+    <body>
+        <h2>Lista de Alumnos</h2>
+        <table>
+            <tr>
+                <th class="centered">NIA</th><th>NOMBRE</th><th>APELLIDOS</th><th class="centered">G&Eacute;NERO</th><th>FECHA DE NACIMIENTO</th><th>CICLO</th><th class="centered">CURSO</th><th class="centered">GRUPO</th>
+            </tr>
+            <tr>
+                <td class="centered">1</td><td>MIGUEL</td><td>PE&Ntilde;A CAMACHO</td><td class="centered">H</td><td>01/01/2024</td><td>DAM</td><td class="centered">PROFESOR</td><td class="centered">A</td>
+            </tr>
+            <tr>
+                <td class="centered">2</td><td>MAR&Iacute;A</td><td>OLALLA GARC&Iacute;A</td><td class="centered">M</td><td>18/12/1979</td><td>PEDAGOG&Iacute;A</td><td class="centered">2&ordm;</td><td class="centered">P</td>
+            </tr>
+            <tr>
+                <td class="centered">3</td><td>SILVIA</td><td>POLO BARDERA</td><td class="centered">M</td><td>13/06/1978</td><td>CONTABILIDAD</td><td class="centered">2&ordm;</td><td class="centered">C</td>
+            </tr>
+            <tr>
+                <td class="centered">4</td><td>CARLOS</td><td>POLO BARDERA</td><td class="centered">H</td><td>18/12/1975</td><td>ELECTRICIDAD</td><td class="centered">2&ordm;</td><td class="centered">E</td>
+            </tr>
+            <tr>
+                <td class="centered">5</td><td>ALBERTO</td><td>POLO BARDERA</td><td class="centered">H</td><td>17/03/1973</td><td>DAM</td><td class="centered">2&ordm;</td><td class="centered">A</td>
+            </tr>
+        </table>
+    </body>
+</html>
